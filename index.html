@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aridii Tech Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="logo-header">
+  <div class="logo-title">
+    <img id="logo" src="images/logo.jpeg" alt="Aridii Tech Logo">
+    <h1>Aridii Tech</h1>
+  </div>
+  <p id="header-caption">Choose a category to explore our products & services</p>
+  <button id="open-cart-btn">
+    Cart
+    <span id="cart-qty-badge">0</span>
+  </button>
+</header>
+
+<!-- Categories Section -->
+<section id="categories">
+  <h2>Choose a Category</h2>
+  <div class="category-container">
+    <div class="category-card" data-category="phones" data-caption="Latest smartphones and accessories">
+      <img src="images/Phone & Accesories Photo.jpg" alt="Phones & Accessories">
+      <h3>Phones & Accessories</h3>
+    </div>
+    <div class="category-card" data-category="services" data-caption="Our professional services for you">
+      <img src="images/Services Photo.jpeg" alt="Services">
+      <h3>Services</h3>
+    </div>
+    <div class="category-card" data-category="mtc & alfa" data-caption="MTC & Alfa recharge bundles">
+      <img src="images/MTC & Alfa Logo.jpg" alt="MTC & ALFA">
+      <h3>MTC & ALFA</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products-section" style="display:none;">
+  <h2 id="category-title"></h2>
+  <div class="product-container" id="product-list"></div>
+  <button id="back-btn">← Back to Categories</button>
+</section>
+
+<!-- Floating Cart Menu -->
+<div id="cart-menu">
+  <button id="close-cart">Close</button>
+  <div id="cart-items"></div>
+  <p id="cart-total">Total: $0</p>
+  <a class="whatsapp-btn" href="https://wa.me/96171450495" target="_blank">Order via WhatsApp</a>
+</div>
+
+<!-- Social Media Section -->
+<section id="social">
+  <h2>Follow Us</h2>
+  <div class="social-links">
+    <a href="https://www.instagram.com/aridii.tech" target="_blank">
+      <img src="images/instagram-logo.png" alt="Instagram">
+      <span>Instagram</span>
+    </a>
+    <a href="https://www.facebook.com/share/16JzUnpxcp/" target="_blank">
+      <img src="images/facebook-logo.jpg" alt="Facebook">
+      <span>Facebook</span>
+    </a>
+    <a href="https://wa.me/96171450495" target="_blank">
+      <img src="images/whatsapp-logo.png" alt="WhatsApp">
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Aridii Tech</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
